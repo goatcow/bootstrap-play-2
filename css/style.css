@@ -1,0 +1,19 @@
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    background-color: lightgrey;
+}
+
+.flex-item {
+    background-color: cornflowerblue;
+    justify-content: space-around;
+    width: 45px;
+    height: 100px;
+    margin: 10px;
+}
+
+.clearfix {
+    overflow: auto;
+}
